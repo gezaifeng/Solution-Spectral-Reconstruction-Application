@@ -1,0 +1,24 @@
+{
+  "software_name_cn": "多色块编码溶液光谱智能重建软件 V1.0",
+  "software_name_en": "Solution Spectral Reconstruction Application",
+  "model_class": "ResCNN",
+  "weight_file": "weights/best.pth",
+  "input_shape": [
+    3,
+    6,
+    12
+  ],
+  "output_dim": 190,
+  "wavelength_start": 380,
+  "wavelength_stop": 760,
+  "wavelength_step": 2,
+  "feature_mode": "log_ratio",
+  "clip_value": 8.0,
+  "use_zscore": true,
+  "out_activation": "linear",
+  "base_ch": 64,
+  "n_blocks": 6,
+  "mlp_hidden": 256,
+  "dropout": 0.1,
+  "output_type": "absorbance"
+}

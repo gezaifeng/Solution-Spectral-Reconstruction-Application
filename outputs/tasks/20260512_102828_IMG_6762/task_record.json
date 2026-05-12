@@ -1,0 +1,38 @@
+{
+  "image_path": "D:/Desktop/test/in/IMG_6762.JPG",
+  "rect_ref": [
+    1565,
+    277,
+    2969,
+    1006
+  ],
+  "rect_sample": [
+    1558,
+    1498,
+    2982,
+    2234
+  ],
+  "wavelength_start": 380.0,
+  "wavelength_end": 758.0,
+  "num_points": 190,
+  "feature_mode": "log_ratio",
+  "created_time": "2026-05-12 10:28:28",
+  "config": {
+    "rows": 6,
+    "cols": 12,
+    "sample_count": 100,
+    "sample_center_area": 0.4,
+    "card_crop_long": 0.01,
+    "card_crop_short": 0.02
+  },
+  "outputs": {
+    "ref_rgb": "ref_rgb.npy",
+    "sample_rgb": "sample_rgb.npy",
+    "feature": "features_log_ratio.npy",
+    "spectrum_npy": "spectrum.npy",
+    "spectrum_csv": "spectrum.csv",
+    "spectrum_xlsx": "spectrum.xlsx",
+    "spectrum_png": "spectrum.png",
+    "input_image_copy": "input_image.jpg"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "grid_rows": 6,
+  "grid_cols": 12,
+  "sample_count": 100,
+  "sample_center_area": 0.4,
+  "card_crop_long": 0.01,
+  "card_crop_short": 0.02,
+  "random_seed": 0
+}
